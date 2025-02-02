@@ -1,12 +1,12 @@
+import Navbar from "./components/Navbar";
 import Topbar from "./components/Topbar";
 
 function App() {
   return (
-    <main className="flex flex-col min-h-screen space-y-20">
+    <main className="flex flex-col min-h-screen">
       <Topbar />
-      <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl">
-        Primexop
-      </h1>
+      <Navbar />
+      
     </main>
   );
 }

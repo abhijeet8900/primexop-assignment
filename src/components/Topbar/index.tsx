@@ -1,11 +1,18 @@
+import {
+  MailIcon,
+  LinkedinIcon,
+  CallIcon,
+  YTIcon,
+  InstaIcon,
+  TelegramIcon,
+  WhatsappIcon,
+} from "../Icons";
 
-import { MailIcon, LinkedinIcon, CallIcon, YTIcon, InstaIcon, TelegramIcon, WhatsappIcon } from "../Icons"
-
-const Topbar = () =>{ 
-    return <div className="sticky top-0 z-[100] bg-white w-full">
-    <div className="w-full bg-black p-4">
-      <div className="flex justify-between">
-        <div className="flex gap-x-2 items-center">
+const Topbar = () => {
+  return (
+    <div className="sticky top-0 z-[100] hidden md:flex w-full bg-black p-4">
+      <div className="w-full flex justify-between">
+        <div className="flex flex-row gap-x-2 items-center">
           <MailIcon />
           <a
             className="text-white text-[16px] font-medium"
@@ -41,7 +48,7 @@ const Topbar = () =>{
         </div>
       </div>
     </div>
-  </div>
-}
+  );
+};
 
-export default Topbar
+export default Topbar;
