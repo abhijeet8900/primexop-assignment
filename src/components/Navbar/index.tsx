@@ -2,7 +2,7 @@ import Menu from "./Menu";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center px-4 py-3 w-full">
+    <div className="top-0 z-[100] sticky flex items-center bg-white shadow-md px-4 py-3 w-full min-h-[60px]">
       <div className="flex flex-row justify-between items-center mx-auto w-full max-w-[1240px]">
         <a href="/">
           <img

@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import PageHeroSection from "./components/PageHeroSection ";
 import Services from "./components/Services";
@@ -14,6 +15,7 @@ function App() {
           <Services />        
         </div>
       </div>
+      <Footer />
     </main>
   );
 }

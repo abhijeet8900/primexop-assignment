@@ -203,3 +203,37 @@ export const LocationIcon = ( props: JSX.IntrinsicAttributes & SVGProps<SVGSVGEl
         <path d="M515.664-.368C305.76-.368 128 178.4 128 390.176c0 221.76 206.032 448.544 344.624 607.936.528.64 22.929 25.52 50.528 25.52h2.449c27.6 0 49.84-24.88 50.399-25.52 130.064-149.52 320-396.048 320-607.936C896 178.4 757.344-.368 515.664-.368zm12.832 955.552c-1.12 1.12-2.753 2.369-4.193 3.409-1.472-1.008-3.072-2.288-4.255-3.408l-16.737-19.248C371.92 785.2 192 578.785 192 390.176c0-177.008 148.224-326.56 323.664-326.56 218.528 0 316.336 164 316.336 326.56 0 143.184-102.128 333.296-303.504 565.008zm-15.377-761.776c-106.032 0-192 85.968-192 192s85.968 192 192 192 192-85.968 192-192-85.968-192-192-192zm0 320c-70.576 0-129.473-58.816-129.473-129.408 0-70.576 57.424-128 128-128 70.624 0 128 57.424 128 128 .032 70.592-55.903 129.408-126.527 129.408z"></path>
       </svg>)
 }
+
+
+export const UpArrowIcon = ( props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) => { 
+  return <svg
+        stroke="currentColor"
+        fill="currentColor"
+        stroke-width="0"
+        viewBox="0 0 384 512"
+        className="animate-bounce"
+        height="20"
+        width="20"
+        {...props}
+      >
+        <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"></path>
+      </svg>
+}
+
+export const ArrowBulletinIcon = ( props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) =>{ 
+  return (<svg
+    stroke="currentColor"
+    fill="currentColor"
+    stroke-width="0"
+    viewBox="0 0 24 24"
+    height="25"
+    width="25"
+    {...props}
+  >
+    <polyline
+      fill="none"
+      stroke-width="2"
+      points="9 6 15 12 9 18"
+    ></polyline>
+  </svg>)
+}

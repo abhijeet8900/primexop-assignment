@@ -10,26 +10,26 @@ import {
 
 const Topbar = () => {
   return (
-    <div className="sticky top-0 z-[100] hidden md:flex w-full bg-black p-4">
-      <div className="w-full flex justify-between">
-        <div className="flex flex-row gap-x-2 items-center">
+    <div className="top-0 z-[100] md:flex hidden bg-black p-2 w-full">
+      <div className="flex justify-between w-full">
+        <div className="flex flex-row items-center gap-x-2">
           <MailIcon />
           <a
-            className="text-white text-[16px] font-medium"
+            className="font-medium text-[16px] text-white"
             href="mailto:support@primexop.com"
           >
             support@primexop.com
           </a>
           <CallIcon />
           <a
-            className="text-white text-[16px] font-medium"
+            className="font-medium text-[16px] text-white"
             href="tel:+919834877006"
           >
             +91-9834877006
           </a>
         </div>
         <div className="flex items-center gap-4">
-          <h1 className="text-white text-lg font-medium">Follow Us:</h1>
+          <h1 className="font-medium text-lg text-white">Follow Us:</h1>
           <a href="https://www.youtube.com/@primexop">
             <YTIcon />
           </a>
